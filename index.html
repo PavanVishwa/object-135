@@ -1,0 +1,42 @@
+<html>
+<head>
+
+	<title>AI OBJECT FINDER </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="supp.jpg">
+<center>
+<h1 class="btn ting">AI OBJECT FINDER 
+    <br>
+    <hr>
+    NOTE-The input name which you will give should match the name present in COCOSSD then only it will detect
+    <hr>
+</h1>
+<br><br>
+<h2>Object name : </h2>
+<br>
+<input type="text" id="input">
+<br><br>
+<button onclick="start()" class="btn lime">Start</button>
+<br><br>
+<h3 id="status" class="btn orange"></h3>
+<h2 id="Number_of_objects" class="btn btn-danger" ></h2>
+
+</center>
+
+<div class="TL">Developed by - B.R.Pavan Vishwa</div>
+<script src="main.js"></script>
+
+</body>
+
+</html>
